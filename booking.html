@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinwa - Book a Table</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+
+<header class="main-header">
+    <div class="container main-header__container">
+        <a href="index.html" class="main-header__logo">kinwa</a>
+
+        <button class="hamburger" aria-label="Open menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item nav__close-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </li>
+
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="menu.html" class="nav__link">Menu</a></li>
+                <li class="nav__item"><a href="booking.html" class="nav__link">Booking</a></li>
+                <li class="nav__item"><a href="index.html#location" class="nav__link">Location</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About</a></li>
+
+                <div class="nav__socials-mobile">
+                    <li class="nav__item">
+                        <a href="https://www.facebook.com/kinwachile/" target="_blank" aria-label="Facebook"
+                            class="nav__link nav__link--social">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="https://www.instagram.com/kinwachile/" target="_blank" aria-label="Instagram"
+                            class="nav__link nav__link--social">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        <section class="booking-section section">
+            <div class="container">
+                <div class="booking-card">
+                    <h1 class="section-title">Book a Table</h1>
+                    <p class="booking-card__subtitle">Reserve your spot for a healthy experience</p>
+
+                    <form action="#" method="post" class="booking-form" id="bookingForm">
+
+                        <div class="booking-form__grid">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="Your Name"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">E-mail Address</label>
+                                <input type="email" id="email" name="email" class="form-input"
+                                    placeholder="you@email.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input"
+                                    placeholder="+1 234 567 890" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="guests" class="form-label">Number of Guests</label>
+                                <input type="number" id="guests" name="guests" min="1" max="20" class="form-input"
+                                    placeholder="2" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="date" class="form-label">Date</label>
+                                <input type="date" id="date" name="date" class="form-input" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="time" class="form-label">Time</label>
+                                <input type="time" id="time" name="time" class="form-input" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group form-group--full">
+                            <label for="message" class="form-label">Special Requests (Optional)</label>
+                            <textarea id="message" name="message" class="form-input form-input--textarea"
+                                placeholder="Allergies, high chair, special occasion..."></textarea>
+                        </div>
+
+                        <div class="form-action">
+                            <button type="submit" class="btn-submit">Confirm Booking</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p class="main-footer__copyright">© 2026 LUIS ELICETCHE. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    
+
+</body>
+
+</html>

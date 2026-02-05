@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kinwa - Full Menu</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+
+<header class="main-header">
+  <div class="container main-header__container">
+    <a href="index.html" class="main-header__logo">kinwa</a>
+
+    <button class="hamburger" aria-label="Open menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item nav__close-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </li>
+
+        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="menu.html" class="nav__link">Menu</a></li>
+        <li class="nav__item"><a href="booking.html" class="nav__link">Booking</a></li>
+        <li class="nav__item"><a href="index.html#location" class="nav__link">Location</a></li>
+        <li class="nav__item"><a href="index.html#about" class="nav__link">About</a></li>
+
+        <div class="nav__socials-mobile">
+          <li class="nav__item">
+            <a href="https://www.facebook.com/kinwachile/" target="_blank" aria-label="Facebook"
+              class="nav__link nav__link--social">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="https://www.instagram.com/kinwachile/" target="_blank" aria-label="Instagram"
+              class="nav__link nav__link--social">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </div>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <nav class="category-nav">
+    <div class="container category-nav__container">
+      <a href="#burgers" class="category-nav__link">Burgers</a>
+      <a href="#bowls" class="category-nav__link">Bowls</a>
+      <a href="#wraps" class="category-nav__link">Wraps</a>
+      <a href="#pizzas" class="category-nav__link">Pizzas</a>
+      <a href="#sides" class="category-nav__link">Sides</a>
+      <a href="#drinks" class="category-nav__link">Drinks</a>
+    </div>
+  </nav>
+
+  <main class="menu-page">
+    <h1 class="page-title">Our Menu</h1>
+
+    <section id="burgers" class="menu-section">
+      <div class="container">
+        <h2 class="menu-section__title">Burgers</h2>
+
+        <div class="menu-grid">
+          <article class="menu-card">
+            <div class="menu-card__image-wrapper">
+              <img src="assets/img/imagesMenu/arabe.png" alt="Arabe Burger" class="menu-card__img">
+            </div>
+            <div class="menu-card__content">
+              <div class="menu-card__header">
+                <h3 class="menu-card__title">Arabe</h3>
+                <span class="menu-card__price">$12.95</span>
+              </div>
+              <p class="menu-card__desc">Beetroot bread, Falafel, red onion, green leaf, corn, mayonnaise.</p>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card__image-wrapper">
+              <img src="assets/img/imagesMenu/azteca.png" alt="Azteca Burger" class="menu-card__img">
+            </div>
+            <div class="menu-card__content">
+              <div class="menu-card__header">
+                <h3 class="menu-card__title">Azteca</h3>
+                <span class="menu-card__price">$12.95</span>
+              </div>
+              <p class="menu-card__desc">Wholemeal bread, Quinoa Burger, Guacamole, green leaf, aioli, jalapeños.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="bowls" class="menu-section">
+      <div class="container">
+        <h2 class="menu-section__title">Bowls</h2>
+        <div class="menu-grid">
+          <article class="menu-card">
+            <div class="menu-card__image-wrapper">
+              <img src="assets/img/imagesMenu/pasta.png" alt="Pasta Salad" class="menu-card__img">
+            </div>
+            <div class="menu-card__content">
+              <div class="menu-card__header">
+                <h3 class="menu-card__title">Pasta Salad</h3>
+                <span class="menu-card__price">$9.95</span>
+              </div>
+              <p class="menu-card__desc">Pasta, cucumber, corn, tomatoes, black olives, sour cream.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="wraps" class="menu-section">
+      <div class="container">
+        <h2 class="menu-section__title">Wraps</h2>
+        <div class="menu-grid">
+          <article class="menu-card">
+            <div class="menu-card__image-wrapper">
+              <img src="assets/img/imagesMenu/wrap-vegan-chicken-300x300.png" alt="Vegan Chicken Wrap"
+                class="menu-card__img">
+            </div>
+            <div class="menu-card__content">
+              <div class="menu-card__header">
+                <h3 class="menu-card__title">Vegan Chicken</h3>
+                <span class="menu-card__price">$9.95</span>
+              </div>
+              <p class="menu-card__desc">Vegan chicken, lettuce, tomatoes, corn, sour cream.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pizzas" class="menu-section">
+      <div class="container">
+        <h2 class="menu-section__title">Pizzas</h2>
+    
+        <div class="menu-grid">
+          <article class="menu-card">
+            <div class="menu-card__image-wrapper">
+              <img src="assets/img/imagesMenu/pizza 1.png" alt="Spring Pizza" class="menu-card__img">
+            </div>
+            <div class="menu-card__content">
+              <div class="menu-card__header">
+                <h3 class="menu-card__title">Spring</h3>
+                <span class="menu-card__price">$19.95</span>
+              </div>
+              <p class="menu-card__desc">Black olives, green olives, corn, mushrooms, tomatoes, mozzarella, tomato sauce.
+              </p>
+            </div>
+          </article>
+    
+          <article class="menu-card">
+            <div class="menu-card__image-wrapper">
+              <img src="assets/img/imagesMenu/Pizza-PNG-Transparent-Image.png" alt="Four Cheese Pizza"
+                class="menu-card__img">
+            </div>
+            <div class="menu-card__content">
+              <div class="menu-card__header">
+                <h3 class="menu-card__title">Four Cheese</h3>
+                <span class="menu-card__price">$18.95</span>
+              </div>
+              <p class="menu-card__desc">Mozzarella, gorgonzola, brie, parmigiano, tomato sauce base.</p>
+            </div>
+          </article>
+    
+          <article class="menu-card">
+            <div class="menu-card__image-wrapper">
+              <img src="assets/img/imagesMenu/20-pizza-png-image.png" alt="Fungi Pizza" class="menu-card__img">
+            </div>
+            <div class="menu-card__content">
+              <div class="menu-card__header">
+                <h3 class="menu-card__title">Fungi</h3>
+                <span class="menu-card__price">$18.95</span>
+              </div>
+              <p class="menu-card__desc">Portobello mushrooms, shitake, garlic, cilantro, mozzarella, tomato sauce.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    
+    <section id="sides" class="menu-section">
+      <div class="container">
+        <h2 class="menu-section__title">Sides</h2>
+    
+        <div class="menu-grid">
+          <article class="menu-card">
+            <div class="menu-card__image-wrapper">
+              <img src="assets/img/imagesMenu/onion rings-300x300.png" alt="Onion Rings" class="menu-card__img">
+            </div>
+            <div class="menu-card__content">
+              <div class="menu-card__header">
+                <h3 class="menu-card__title">Onion Rings</h3>
+                <span class="menu-card__price">$8.95</span>
+              </div>
+              <p class="menu-card__desc">Crispy battered onion rings served with our special house sauce.</p>
+            </div>
+          </article>
+    
+          <article class="menu-card">
+            <div class="menu-card__image-wrapper">
+              <img src="assets/img/imagesMenu/vegannugget-300x300.png" alt="Vegan Nuggets" class="menu-card__img">
+            </div>
+            <div class="menu-card__content">
+              <div class="menu-card__header">
+                <h3 class="menu-card__title">Vegan Nuggets</h3>
+                <span class="menu-card__price">$8.95</span>
+              </div>
+              <p class="menu-card__desc">6 crispy vegan nuggets served with sour cream dipping sauce.</p>
+            </div>
+          </article>
+    
+          <article class="menu-card">
+            <div class="menu-card__image-wrapper">
+              <img src="assets/img/imagesMenu/rusticpotato-300x300.png" alt="Rustic Potatoes" class="menu-card__img">
+            </div>
+            <div class="menu-card__content">
+              <div class="menu-card__header">
+                <h3 class="menu-card__title">Rustic Potatoes</h3>
+                <span class="menu-card__price">$11.95</span>
+              </div>
+              <p class="menu-card__desc">1 lb rustic potatoes, sour cream, cheddar cheese sauce.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    
+    <section id="drinks" class="menu-section">
+      <div class="container">
+        <h2 class="menu-section__title">Drinks</h2>
+    
+        <div class="menu-grid">
+          <article class="menu-card">
+            <div class="menu-card__image-wrapper">
+              <img src="assets/img/imagesMenu/Strawberry-Smoothie-PNG-Pic.png" alt="Strawberry Smoothie"
+                class="menu-card__img">
+            </div>
+            <div class="menu-card__content">
+              <div class="menu-card__header">
+                <h3 class="menu-card__title">Strawberry Field</h3>
+                <span class="menu-card__price">$5.99</span>
+              </div>
+              <p class="menu-card__desc">Fresh strawberry smoothie with banana and almond milk.</p>
+            </div>
+          </article>
+    
+          <article class="menu-card">
+            <div class="menu-card__image-wrapper">
+              <img src="assets/img/imagesMenu/65-652744_carrot-juice-png.png" alt="Carrot Juice" class="menu-card__img">
+            </div>
+            <div class="menu-card__content">
+              <div class="menu-card__header">
+                <h3 class="menu-card__title">Rabbit Juice</h3>
+                <span class="menu-card__price">$8.95</span>
+              </div>
+              <p class="menu-card__desc">Cold pressed juice: carrot + oranges + ginger.</p>
+            </div>
+          </article>
+    
+          <article class="menu-card">
+            <div class="menu-card__image-wrapper">
+              <img src="assets/img/imagesMenu/mint_lemonade.png" alt="Mint Lemonade" class="menu-card__img">
+            </div>
+            <div class="menu-card__content">
+              <div class="menu-card__header">
+                <h3 class="menu-card__title">Mint Lemonade</h3>
+                <span class="menu-card__price">$11.95</span>
+              </div>
+              <p class="menu-card__desc">Freshly squeezed lemonade with organic mint leaves.</p>
+            </div>
+          </article>
+    
+          <article class="menu-card">
+            <div class="menu-card__image-wrapper">
+              <img src="assets/img/carrusel 6 .png" alt="Kombucha" class="menu-card__img">
+            </div>
+            <div class="menu-card__content">
+              <div class="menu-card__header">
+                <h3 class="menu-card__title">Kombucha</h3>
+                <span class="menu-card__price">$12.95</span>
+              </div>
+              <p class="menu-card__desc">Probiotic blueberry kombucha, locally brewed.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <p class="main-footer__copyright">© 2026 LUIS ELICETCHE. ALL RIGHTS RESERVED.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
